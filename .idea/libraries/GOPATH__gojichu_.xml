@@ -1,0 +1,51 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;gojichu&gt;">
+    <CLASSES>
+      <root url="file://D:/Work/goProject/platform_sx_go/src/config" />
+      <root url="file://D:/Work/goProject/platform_jx_go/src/libs" />
+      <root url="file://D:/Work/goProject/platform_bj_go/src/filter" />
+      <root url="file://D:/Work/goProject/platform_sx_go/src/libs" />
+      <root url="file://D:/Work/goProject/platform_jx_go/src/modules" />
+      <root url="file://D:/Work/goProject/platform_qg_go/src/libs" />
+      <root url="file://D:/Work/goProject/platform_bj_go/src/github.com" />
+      <root url="file://D:/Work/goProject/platform_jx_go/src/config" />
+      <root url="file://D:/Work/goProject/platform_qg_go/src/filter" />
+      <root url="file://D:/Work/goProject/platform_sx_go/src/github.com" />
+      <root url="file://D:/Work/goProject/platform_qg_go/src/github.com" />
+      <root url="file://D:/Work/goProject/platform_sx_go/src/filter" />
+      <root url="file://D:/Work/goProject/platform_bj_go/src/libs" />
+      <root url="file://D:/Work/goProject/platform_bj_go/src/modules" />
+      <root url="file://D:/Work/goProject/platform_qg_go/src/config" />
+      <root url="file://D:/Work/goProject/platform_qg_go/src/modules" />
+      <root url="file://D:/Work/goProject/platform_jx_go/src/github.com" />
+      <root url="file://D:/Work/goProject/platform_bj_go/src/config" />
+      <root url="file://D:/Work/goProject/platform_sx_go/src/modules" />
+      <root url="file://D:/Work/goProject/platform_jx_go/src/filter" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://D:/Work/goProject/platform_sx_go/src/config" />
+      <root url="file://D:/Work/goProject/platform_jx_go/src/libs" />
+      <root url="file://D:/Work/goProject/platform_bj_go/src/filter" />
+      <root url="file://D:/Work/goProject/platform_sx_go/src/libs" />
+      <root url="file://D:/Work/goProject/platform_jx_go/src/modules" />
+      <root url="file://D:/Work/goProject/platform_qg_go/src/libs" />
+      <root url="file://D:/Work/goProject/platform_bj_go/src/github.com" />
+      <root url="file://D:/Work/goProject/platform_jx_go/src/config" />
+      <root url="file://D:/Work/goProject/platform_qg_go/src/filter" />
+      <root url="file://D:/Work/goProject/platform_sx_go/src/github.com" />
+      <root url="file://D:/Work/goProject/platform_qg_go/src/github.com" />
+      <root url="file://D:/Work/goProject/platform_sx_go/src/filter" />
+      <root url="file://D:/Work/goProject/platform_bj_go/src/libs" />
+      <root url="file://D:/Work/goProject/platform_bj_go/src/modules" />
+      <root url="file://D:/Work/goProject/platform_qg_go/src/config" />
+      <root url="file://D:/Work/goProject/platform_qg_go/src/modules" />
+      <root url="file://D:/Work/goProject/platform_jx_go/src/github.com" />
+      <root url="file://D:/Work/goProject/platform_bj_go/src/config" />
+      <root url="file://D:/Work/goProject/platform_sx_go/src/modules" />
+      <root url="file://D:/Work/goProject/platform_jx_go/src/filter" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>

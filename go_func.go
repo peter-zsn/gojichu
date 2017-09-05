@@ -13,7 +13,7 @@ func main() {
 		a += 1
 		fmt.Println(a)
 	}(i)	// () 里面表示传递的形参
-	fmt.Println(i)
+	fmt.Println(5)
 	time.Sleep(1)	// 程序优先执行主线程，主线程执行完毕后，等待会，给予执行线程的时间(wait)
 	fmt.Println(i)
 
