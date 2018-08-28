@@ -31,34 +31,44 @@ func print_arry_no(arry [] int)  {
 
 func main() {
 	//fmt.Print(arry1)
-	arry1[1] = 10
-	//fmt.Print(arry1)
-	// 数据定义和赋值
-	a := arry1[0]
-	fmt.Print(a)
-	//fmt.Printf("\n")
-	var arry2 [20] int
-	var i, j int
-	for i = 0; i < 20; i++{
-		arry2[i] = i + 100
+	//arry1[1] = 10
+	//	//	////fmt.Print(arry1)
+	//	//	//// 数据定义和赋值
+	//	//	//a := arry1[0]
+	//	//	//fmt.Print(a)
+	//	//	////fmt.Printf("\n")
+	//	//	//var arry2 [20] int
+	//	//	//var i, j int
+	//	//	//for i = 0; i < 20; i++{
+	//	//	//	arry2[i] = i + 100
+	//	//	//}
+	//	//	////for j = 0; j < 10; j++{
+	//	//	////	fmt.Printf("arry[%d] is %d \n", j, arry2[j])
+	//	//	////}
+	//	//	////fmt.Print(&arry1[0], &arry1[1])   //指针位置（内存）存储相同
+	//	//	//
+	//	//	//// 二维数组 多维数组同c一样，
+	//	//	//var arrys [2][3] int
+	//	//	//x := 1
+	//	//	//for i=0; i<2;i++{
+	//	//	//	for j=0; j<3; j++{
+	//	//	//		x += 1
+	//	//	//		arrys[i][j] = x
+	//	//	//	}
+	//	//	//}
+	//	//	//
+	//	//	//var arrys1 =  [] int{1,2,3}
+	//	//	//print_arry(arrys)
+	//	//	//print_arry_no(arrys1)
+	//	//	//fmt.Printf("函数中传数组的话，值不变 %d\n", arrys[0][0])
+	//	//	//
+	//	//	//var test = []int{1,2,3,4}
+	//	//	//test = append(test, 5)
+	//	//	//fmt.Println(test)
+	a := make([]int, 0, 1)
+	for i := 0; i < 15; i++{
+		a = append(a, i)
 	}
-	//for j = 0; j < 10; j++{
-	//	fmt.Printf("arry[%d] is %d \n", j, arry2[j])
-	//}
-	//fmt.Print(&arry1[0], &arry1[1])   //指针位置（内存）存储相同
-
-	// 二维数组 多维数组同c一样，
-	var arrys [2][3] int
-	x := 1
-	for i=0; i<2;i++{
-		for j=0; j<3; j++{
-			x += 1
-			arrys[i][j] = x
-		}
-	}
-
-	var arrys1 =  [] int{1,2,3}
-	print_arry(arrys)
-	print_arry_no(arrys1)
-	fmt.Printf("函数中传数组的话，值不变 %d\n", arrys[0][0])
+	fmt.Println(a)
+	fmt.Println(len(a))
 }
